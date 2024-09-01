@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1><!--tITULO  PRINCIPAL DA PAGINA-->
+        <nav>
+            <ul>
+                <!--Item de lista com link para a seção “Sobre”-->
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#redes-sociais">Redes Sociais</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Sessão sobre mim-->
+    <section class="sobre"  id="sobre">
+        <h2>SOBRE MIM</h2>
+        <p>Me chamo Guilherme Carvalho Rezende da Silva, tenho 20 anos, moro em Montividiu, Goias. Tenho como sportes preferidos o volei e a corrida. Eu adoro ler, e minha comida favorita é lasanha</p>
+    </section>
+    <!--Sessão sobre minhas formações e cursos-->
+    <section id="formacao">
+        <h1>MINHAS FORMAÇÕES E CURSOS:</h1>
+        <div class="formacao"> <!--Divisão de cada formação-->
+            <h2>Escolaridade</h2>
+            <p>Ensino Medio completo, formado no final de 2022. Ensino superior em andamento no curso de Análise e desenvolvimento de Sistemas pela Universidade Uninter, Rio Verde.</p>
+        </div>
+        
+        <div class="formacao">
+            <h2>Excel avançado</h2>
+            <p> Certificado de Excel avançado, pela instituição de cursos da Cooperativa Agroindustrial dos Produtores Rurais do Sudoeste Goiano (COMIGO) </p>
+        </div>
+        
+        <div class="formacao">
+            <h2>Power BI</h2>
+            <p> Curso de Power BI em andamento pela instituição de tecnologia ALURA</p>
+        </div>
+
+        <div class="formacao">
+            <h2>Idioma</h2>
+            <p> Ingles intermediário </p>
+        </div>
+    </section>
+   <!--Sessão para contato-->
+    <section id="contato">
+        <h2>CONTATE-ME</h2>
+        <form action="#" method="post"> <!--formulário com o método POST.-->
+            <!--campos de entrada das infoemações-->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required>
+            <!--botão de enviar-->
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <!--Sessão para as redes sociais-->
+    <section class="redessociais" id="redes-sociais">
+        <h2>REDES SOCIAIS </h2>
+        <h4>Instagram: @gui_reezende</h4>
+        <h4>E-mail: guilhermerezende150@gmail.com</h4>
+
+    </section>
+    
+</body>
+</html>

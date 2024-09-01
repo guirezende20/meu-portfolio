@@ -1,0 +1,111 @@
+/*Definindo a fonte padrão, remove margens e preenchimentos padrão, e aplica o modelo de caixa*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* deixa cabeçalho com fundo escuro, texto branco, preenchimento e centralização do texto. */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+/* Remove os estilos de lista padrão e o preenchimento. */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+/*Exibe os itens da lista em linha e adiciona margem.*/
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+/* Estiliza os links de navegação com cor branca e remove a sublinhado.*/
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+/*Adiciona preenchimento e margem, alinha e aumenta a letra das seções.*/
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.sobre p { 
+    border: 3px solid #333;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.formacao {
+    border: 3px solid #333;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.redessociais h4{
+    border: 3px solid #333;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+
+
+
+#contato { 
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #005bb5;
+}
